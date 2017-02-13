@@ -7,11 +7,11 @@ socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5,"127.0.0.1",1080)
 session = smtplib.SMTP('smtp.gmail.com', 587)
 session.ehlo()
 session.starttls()
-session.login("sunsama1995@gmail.com", "vlsbexgtjuvclxsu")
+session.login("********", "*******")
  
-headers = "\r\n".join(["from: " + "sunsama1995@gmail.com",
+headers = "\r\n".join(["from: " + "********",
             "subject: " + "hello"
-            "to: " + "691367132@qq.com",
+            "to: " + "*******",
             "mime-version: 1.0",
             "content-type: text/html"])
  
