@@ -17,4 +17,4 @@ headers = "\r\n".join(["from: " + "********",
  
 # body_of_email can be plaintext or html!          
 content = headers + "\r\n\r\n" + "hello"
-session.sendmail("sunsama1995@gmail.com", "691367132@qq.com", content)
+session.sendmail("******", "*******", content)
